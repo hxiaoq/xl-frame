@@ -1,0 +1,39 @@
+// header
+$headerBackgroundColor: linear-gradient(to right ,#3991EB,#464883, #68498B);
+$headerTitleTextColor: #fff;
+
+$headerImgBorderColor: #d5d5d5;
+$headerNameColor: #fff;
+
+// sidebar
+$menuBackground: #41405a;
+$menuHover: rgba(255, 255, 255, 0.06);
+$menuActive: #2f354b;
+
+$menuTextColor: rgba(255, 255, 255, .4);
+$menuTextColorHover: rgba(255, 255, 255, .8);
+$menuTextColorActive: #65a2df;
+
+$collapseBackgroundColor: #777580;
+$shadowColor: rgba(0, 0, 0, 0.16);
+
+// content
+$mainBackgroundColor: #f5f5fc;
+
+:export {
+    headerBackgroundColor: $headerBackgroundColor;
+    headerTitleTextColor: $headerTitleTextColor;
+    headerImgBorderColor: $headerImgBorderColor;
+    headerNameColor: $headerNameColor;
+    menuBackground: $menuBackground;
+    menuHover: $menuHover;
+    menuActive: $menuActive;
+    menuTextColor: $menuTextColor;
+    menuTextColorHover: $menuTextColorHover;
+    menuTextColorActive: $menuTextColorActive;
+    shadowColor: $shadowColor;
+    mainBackgroundColor: $mainBackgroundColor;
+}
+
+
+
